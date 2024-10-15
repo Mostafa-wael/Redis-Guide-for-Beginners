@@ -294,11 +294,9 @@ Redis offers two methods for data persistence:
 
 Configuring persistence in Redis is done through the configuration file (`redis.conf`) or runtime configurations. You can choose either RDB, AOF, or both based on your needs.
 
-Of course! Let's continue the tutorial and explore Redis Streams.
-
 ## Step 11: Redis Streams
 
-Redis Streams is a data structure designed for managing real-time data streams. It's a log-like data structure where data (events) is stored in chronological order -in the order they occurred or were created, from the earliest to the most recent- and can be consumed by multiple consumers. Streams are useful for building applications that handle real-time events and messaging systems.
+Redis Streams is a data structure designed to manage real-time data streams. It's a log-like data structure where data (events) is stored in chronological order -in the order they occurred or were created, from the earliest to the most recent- and can be consumed by multiple consumers. Streams are useful for building applications that handle real-time events and messaging systems.
 
 Streams consist of entries called messages, and each message is associated with a unique ID. Messages are stored in chronological order, and new messages are always appended at the end of the stream.
 
